@@ -3,13 +3,14 @@ import logo from "./../../assets/logo.jpg"
 
 const Navbar = () => {
   return (
-    <div className="">
+    <div className="shadow-md bg-white dark:bg-gray-900 dark:text-white duration-200 relative z-40">
       {/* Upper Navbar */}
-      <div className="">
-        <div className="">
+      <div className="bg-primary/40 py-2">
+        <div className="container flex justify-between items-center">
           <div className="">
-            <a href="#">
-              <img src={logo} alt="logo" />
+            <a href="#" className="font-bold text-2xl sm:text-3xl flex gap-2">
+              <img src={logo} alt="logo" className="w-10 " />
+              React Ecom
             </a>
           </div>
           {/* search bar and order button */}
