@@ -38,6 +38,16 @@ const Hero = () => {
           <div className="">
             <div className="grid grid-cols-1 sm:grid-cols-2">
               {/* text content section */}
+              <div className="">
+                <h1>Lorem ipsum dolor sit.</h1>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ex,
+                  modi?
+                </p>
+                <div className="">
+                  <button className="">Order Now </button>
+                </div>
+              </div>
               {/* text content section */}
             </div>
           </div>
