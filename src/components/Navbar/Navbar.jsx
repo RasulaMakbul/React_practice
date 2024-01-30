@@ -1,4 +1,4 @@
-import React from "react"
+// import React from "react"
 import logo from "./../../assets/logo.jpg"
 import {IoMdSearch} from "react-icons/io"
 import {FaCaretDown, FaCartShopping} from "react-icons/fa6"
