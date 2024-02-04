@@ -102,7 +102,7 @@ const Products = () => {
                 >
                   <img
                     src={data.img}
-                    className="h-[220px] w-[150px] object-cover rounded-md"
+                    className="w-[220px] h-[150px] object-fit rounded-md"
                     alt=""
                   />
                   <div className="">
@@ -115,6 +115,13 @@ const Products = () => {
                   </div>
                 </div>
               ))}
+            </div>
+            {/* view all button */}
+            <div className="flex justify-center">
+              <button className="text-center mt-10 cursor-pointer bg-primary text-white py-1 px-3 rounded-md">
+                {" "}
+                View All Products
+              </button>
             </div>
           </div>
         </div>
